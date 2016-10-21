@@ -1,0 +1,5 @@
+<div class="form-group">
+    <label *ngFor="let input of inputArray" class="radio-inline">
+        <input type="radio" value="{{ input }}" (change)='selectedScore(input)' name='{{ input }}' class="">        
+    </label>   
+</div>
